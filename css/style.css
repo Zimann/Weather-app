@@ -1,0 +1,43 @@
+body,
+html {
+    background-color: bisque;
+    font-family: 'Lato', sans-serif;
+}
+.main-row {
+    text-align: center;
+}
+.app-title,
+.city-name,
+.temperature,
+.weather-info, .credits {
+    font-weight: bold;
+}
+
+.api-link {
+    text-decoration: none;
+}
+
+.api-link:visited {
+    color: blue;
+}
+
+.app-title,
+.temperature,
+.weather-info {
+    color: #023b02;
+}
+.app-title {
+    margin-top: 15%;
+    font-size: 32px;
+}
+.city-name {
+    color: #982900;
+    font-size: 30px;
+}
+.temperature {
+    font-size: 33px;
+}
+.weather-info {
+    padding-bottom: 10px;
+    font-size: 29px;
+}
